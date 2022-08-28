@@ -1,0 +1,32 @@
+h1{
+    font-size:90px;
+    /*Issue: by placing property values in this section clashed with the 
+    class declaration on the bottom Solution: the clash was removed
+    text-decoration: underlineText black solid (previous) 
+    declaration */
+    color:blue;
+
+  
+  }
+
+/* 'h1' means that all headins will display the value */
+
+  /*text-decoration: style:dashed;
+    text-decoration: color:red;
+    text-decoration: thickness:5px;*/
+/*ID selector. Applies the rules */
+#intro{
+font-family: "Tahoma";
+}
+.underlineText{
+  text-decoration: underline black; 
+}
+
+p{
+    margin: 120px 0px;
+    margin: bottom 20px;
+    color:navy;
+    background-color: rgb(193,186,18);
+ }
+
+ 

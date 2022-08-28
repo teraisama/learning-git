@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learning CSS</title>
+    <style>
+        body{background-color:lightblue;
+        color:aliceblue;
+    }
+    </style>
+    </head>
+
+    <body>
+        <h1>Hello World</h1>
+        <p>Today is a good day</p>
+    </body>
+
+    </html>
