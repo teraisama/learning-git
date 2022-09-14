@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background:black;
+}
+
+.card {
+    position:relative;
+    width:350px;
+    height:450px;
+    background: rgb(47, 46, 46);
+    border-radius: 20px;
+   /*box-shadow: 0 35px 80px #f9004d;*/
+    transition:0.5s;
+}
+
+.card:hover{
+height:450px;
+}
+
+.imgbx{
+    position:absolute;
+    top:200px;
+    /*left:-50%; removed due to skewed position*/
+    transform: translateX(-50);
+    width:150px;
+    height:150px;
+    background:white;
+    border-radius:20px;
+    overflow: hidden;
+    transition:0.5s;
+
+}
+
+.imgbx img{   /*potential problem area for img*/
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    
+}
