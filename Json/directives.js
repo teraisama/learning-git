@@ -33,8 +33,24 @@ box1Element.addEventListener('mouseover', () => {
 box2Element.addEventListener('mouseover',) () => {
     box1Element.style.backgroundColor = 'red';
 }
+
 */
 
+/*
 fetch('example.json')  
 .then((result) => result.json())  
 .then((jsonResult) => console.log(jsonResult));
+*/
+
+/*      hidden mouseover attempt
+function showContent() {
+  let hidden = document.getElementById('hidden');
+  if (hidden.style.style == "none"){
+    hidden.style.display = "block"
+  } else {
+    hidden.style.display = "none"
+  }
+}
+*/
+
+Object.addEventListener("mouseover", myScript);

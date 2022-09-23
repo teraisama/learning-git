@@ -1,9 +1,36 @@
-[
-    {"name": "john", "age": 27},
-    {"name": "Mary", "age": 22},
-    {"name": "Ethan", "age": 17},
-    {"name": "Joe", "age": 53},
-    {"name": "Amelia", "age": 87},
-    {"name": "Adam", "age": 34}
-]
+
+<script>
+let popup = document.getElementById("popup")
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+    popup.classList.add("open-popup");
+}
+<script>
+
+<br>                        <!--(belongs next to id=hidden style="display:none"> -->
+<div class = "card">
+    <div class = "imgbx">
+       <a href="#" onclick="showContent()"><img src="IMG-0871.jpg"/></a>
+       <div id="hidden">      
+          <div class = "content"> <!--<h2>-->
+            <div class = "details"> <!--<h3>-->
+               <h2> Aspiring Full stack developer<br><span>Front-end developer</span></h2>
+               <div class="data">
+                  <h3>Programming background</h3>
+                      
+                       <div class="actionbtn">
+                        <button>Connect</button>
+                      </div> 
+                     
+                  </div>
+              </div>
+            </div> 
+          </div>
+     </div> 
+</div>
+
+
 

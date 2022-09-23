@@ -129,17 +129,18 @@ h3,h4 {
  
  .about img{        /*https://www.youtube.com/watch?v=4SQXOA8Z-lo&t=895s&ab_channel=DevEd */
     height:auto;
-    width:430px;
+    width:330px;
     border-radius:50%;
     
     
  }
  
-                                                                 
- .circle{
+ /*  .circle{
     border-radius:50%;
     object-fit: cover;   /*added property for img*/
- }
+ }                                                              
+
+ 
  .about-text{
     width:550px;
  }
